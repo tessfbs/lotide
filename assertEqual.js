@@ -19,13 +19,4 @@
   //subst1 … substN = JavaScript objects with which to replace substitution strings within msg. This parameter gives you additional control over the format of the output.
 
 
-  const assertEqual = function(actual, expected){
-    if(actual === expected){
-      console.log(`🟢🟢🟢 Assertion Passed: ${actual}  === ${expected}`)
-    }else{
-      console.log(`🔴🔴🔴 Assertion Failed: ${actual} !== ${expected}`)
-    }
-  };
-
-  assertEqual("Lighthouse Labs", "Bootcamp");
-  assertEqual(1, 1);
+c
