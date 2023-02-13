@@ -2,7 +2,7 @@ let args = process.argv.slice(2);
 
 
 
-const obfuscate = function(args){
+const obfuscate_password = function(args){
   let string = args.toString();
   let replaced = [];
   for(let i = 0; i < string.length; i++){
@@ -21,4 +21,6 @@ const obfuscate = function(args){
   return replaced.join('')
 }
 
-console.log(obfuscate(args));
+module.exports = obfuscate_password;
+
+console.log(obfuscate_password(args));
